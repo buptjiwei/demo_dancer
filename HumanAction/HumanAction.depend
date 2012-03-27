@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1223344808 source:c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\cv_yuv_codebook.cpp
+	"cv_yuv_codebook.h"
+
+1223344808 c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\cv_yuv_codebook.h
+	"yuv_codebook.h"
+	<cv.h>
+	<highgui.h>
+	<cxcore.h>
+
+1254001710 c:\opencv2.0\include\opencv\cv.h
+	<chdl.h>
+	"cxcore.h"
+	"cvtypes.h"
+	"cv.hpp"
+	"cvcompat.h"
+
+1254001710 c:\opencv2.0\include\opencv\cxcore.h
+	"ipl.h"
+	"ipl/ipl.h"
+	"cxtypes.h"
+	"cxerror.h"
+	"cvver.h"
+	"cxcore.hpp"
+
+1254331956 c:\opencv2.0\include\opencv\cxtypes.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<emmintrin.h>
+	<mmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+
+1254001710 c:\opencv2.0\include\opencv\cxerror.h
+
+1254326910 c:\opencv2.0\include\opencv\cvver.h
+
+1254326910 c:\opencv2.0\include\opencv\cxcore.hpp
+	"cxmisc.h"
+	<algorithm>
+	<cmath>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	"cxoperations.hpp"
+	"cxmat.hpp"
+	"cxflann.h"
+
+1254001710 c:\opencv2.0\include\opencv\cxmisc.h
+	"cvconfig.h"
+	<limits.h>
+	"omp.h"
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+
+1254326910 c:\opencv2.0\include\opencv\cxoperations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	"windows.h"
+
+1254329798 c:\opencv2.0\include\opencv\cxmat.hpp
+	<limits.h>
+
+1254001710 c:\opencv2.0\include\opencv\cxflann.h
+
+1254001710 c:\opencv2.0\include\opencv\cvtypes.h
+	<assert.h>
+	<stdlib.h>
+
+1254094444 c:\opencv2.0\include\opencv\cv.hpp
+
+1254001710 c:\opencv2.0\include\opencv\cvcompat.h
+	<string.h>
+
+1254001710 c:\opencv2.0\include\opencv\highgui.h
+	"cxcore.h"
+	<windows.h>
+	<chdl.h>
+	"highgui.hpp"
+
+1254001712 c:\opencv2.0\include\opencv\highgui.hpp
+
+1223344808 source:c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\ch9_avgbackground.cpp
+	"ch9_AvgBackground.h"
+
+1223344808 c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\ch9_avgbackground.h
+	"cv.h"
+	"highgui.h"
+	"cxcore.h"
+
+1330787922 source:c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\main.cpp
+	"cv.h"
+	"highgui.h"
+	"cxcore.h"
+	"cvaux.h"
+	"ml.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"ch9_AvgBackground.h"
+	"cv_yuv_codebook.h"
+	"write2video.h"
+	"drawRect.h"
+
+1330763800 c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\write2video.h
+	"cv.h"
+	"highgui.h"
+	<stdio.h>
+
+1330764273 source:c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\write2video.cpp
+	"write2video.h"
+
+1330787092 source:c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\drawrect.cpp
+	"drawRect.h"
+	<stdio.h>
+
+1330784225 c:\documents and settings\zhangjiwei\桌面\dance\project\humanaction\drawrect.h
+	"cv.h"
+	"highgui.h"
+
+1254001712 c:\opencv2.0\include\opencv\cvaux.h
+	"cv.h"
+	"cvaux.hpp"
+	"cvvidsurv.hpp"
+
+1254326910 c:\opencv2.0\include\opencv\cvaux.hpp
+	<iosfwd>
+
+1254001710 c:\opencv2.0\include\opencv\cvvidsurv.hpp
+	<stdio.h>
+
+1254350122 c:\opencv2.0\include\opencv\ml.h
+	"cxcore.h"
+	<limits.h>
+	<windows.h>
+	<map>
+	<string>
+	<iostream>
+
