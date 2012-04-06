@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Demo dancer : Background Subtraction and Body Tracking  " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Demo dancer</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/buptjiwei/demo_dancer">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Demo dancer</h1>
+          <h2 id="project_tagline">Background Subtraction and Body Tracking  </h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/buptjiwei/demo_dancer/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/buptjiwei/demo_dancer/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome</h3>
+
+<p>This is a very initial implementation of background subtraction and movement tracking modified from an OpenCV example code in <strong>Learning OPENCV</strong>.</p>
+
+<p>The distribution contains backgroud substraction codes including average value and codebook methods, and tracking codes of detecting the range of human areas.</p>
+
+<p>The system is implemented with C/C++. The software was tested on Windows XP using CodeBLocks ( because my PC with Linux cannot be accessed on weekends)</p>
+
+<h3>Future work:</h3>
+
+<ol>
+<li><p>background subtraction
+more powerful algorithms for bg_model training should be used to improve both the efficiency and accuracy.
+eg, the blocks on the door in <strong>\dancer_forground</strong> are labeled as forground mainly for the shadow of the dancer. Those blocks should be elliminated.</p></li>
+<li><p>movement tracking
+The implementation is a initial one using simple pixel compariation method and have some false alarms in tracking the body. Tracking methods like Optical-Flow and human body detecting systems like HOG-LBP should be used in the future .</p></li>
+</ol><p>If you have any problem about the software, codes, license etc., please contact me as soon as possible</p>
+
+<h3>Dependent software</h3>
+
+<ol>
+<li>OpenCV: 
+<a href="http://www.opencv.org.cn/index.php/Download">http://www.opencv.org.cn/index.php/Download</a></li>
+<li>CodeBlocks:
+<a href="http://www.codeblocks.org/">http://www.codeblocks.org/</a></li>
+</ol><h3>Basic Usage</h3>
+
+<ol>
+<li>Unpack the code.</li>
+<li>Compile the c/c++ code with codeblocks</li>
+<li>Run <code>./HumanAction.exe begin end dancer.mp4</code>
+</li>
+<li>output: dancer.avi</li>
+</ol><p>Best,
+Jiwei Zhang</p>
+
+<h3>Contact</h3>
+
+<p>Zhang Jiwei
+School of Information and Communications Engineering @ BUPT
+E-mail: buptjiwei@gmail.com</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Demo dancer maintained by <a href="https://github.com/buptjiwei">buptjiwei</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
